@@ -3,7 +3,7 @@ body { margin: 0px;
 		padding: 0px;}
 
 
-h1 {color: rgb(80,138,168);
+h1 {color: rgb(116,193,242);
 	text-align: center;
 	font-size: 60px; 
 	font-family: "open sans", sans-serif;
@@ -17,7 +17,7 @@ h2 {color : black;
 	padding-left: 100px;
 }
 
-h3 { color: rgb(80,138,168); 
+h3 { color: rgb(116,193,242); 
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
@@ -31,10 +31,11 @@ h4 { color: rgb(65,65,64);
 	text-align: center;
 }
 
-h5 { color: #CCC614; 
-	font-size: 40px;
-	font-weight: 300;
-	text-align: center;
+h5 { color: rgb(116,193,242); 
+	font-size: 30px;
+	font-weight: 800;
+	text-align: left;
+	
 }
 
 
@@ -84,7 +85,7 @@ p { color: #467991;
 .icon-div { text-align: center;
 			 font-size: 50px; 
 			 font-weight: 300;
-			 color: rgb(80,138,168); 
+			 color: rgb(116,193,242); 
 			 padding: 50px;
 			 margin: 0px;
  			}
@@ -97,7 +98,7 @@ p { color: #467991;
 
 .icon { width: 250px; 
 		height: auto; 
-		border: solid 4px rgb(80,138,168); 
+		border: solid 4px rgb(116,193,242); 
 		border-radius: 50%;}
 
 .icon-content { width: 150px; 
@@ -113,7 +114,7 @@ p { color: #467991;
 				height: auto;
 				margin: auto;
 				text-align: center;
-				color:rgb(80,138,168);
+				color:rgb(116,193,242);
 				  }
 
 .content-pages {width: 80%;
@@ -162,7 +163,7 @@ p { color: #467991;
 
 
 .navbar-transparent {
-  background-color: rgba(38,165,172, 0.6);
+  background-color: rgba(116,193,242,0.6);
   font-family: 'open sans', sans-serif;
   font-weight: 300;
   margin-bottom: 1000px;
