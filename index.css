@@ -39,6 +39,35 @@ h5 { color: rgb(116,193,242);
 }
 
 
+a:hover { color: #C0CBD1;}
+a{ color: #474747;
+text-decoration: underline; }
+
+
+p { color: #474747; 
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	max-width: 80%; 
+	
+	margin-left:auto;
+	margin-right: auto;
+	
+	 }
+
+
+ul
+{color: #474747; 
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	margin-left:10%;
+	margin-right: auto;
+    }
+
+
 #image-logo {width: 50%;
 	margin-left: auto; 
 	margin-right: auto; 
@@ -64,17 +93,6 @@ h5 { color: rgb(116,193,242);
 			 }
 
 
-p { color: #474747; 
-	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	text-align: justify;
-	max-width: 80%; 
-	
-	margin-left:auto;
-	margin-right: auto;
-	
-	 }
 
 
 .row {margin: 0px;}
@@ -160,22 +178,30 @@ p { color: #474747;
 
 
 
+#titre { color: white;
+		margin-left: 10%;
+		margin-top: 2%; 
+		font-size: 18px;}
 
+#contact {margin-right: 10%;
+		margin-top: 8%;
+		font-size: 18px; }
 
 .navbar-transparent {
   background-color: rgba(116,193,242,0.6);
   font-family: 'open sans', sans-serif;
   font-weight: 300;
+  height: 20px;
   margin-bottom: 1000px;
  
 }
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: #eeeeee;
+  color: white;
   line-height: 8px;
-
-      font-size: 20px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -212,15 +238,9 @@ p { color: #474747;
 .navbar-nav > li > a {
     padding-top: 7px;
     padding-bottom: 7px;
-    line-height: 20px;
+    line-height: 50px;
 }
-.dropdown-menu > li > a {color:white;}
 
-
-.dropdown-menu > li > a :hover {color:black;}
-
-.dropdown-menu{ background-color:rgba(80,138,168, 0.8); 
-}
 
 .navbar-warning { margin-top: 300px; }
 
@@ -243,11 +263,6 @@ footer {
 		}
 
 
-ul
-{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;}
 
 
 .title-footer { color: white;
@@ -268,8 +283,7 @@ ul
 
 .footer-link:hover { color: white;}
 
-a:hover { color: white;}
-a{ color: #C0CBD1 }
+
 
 
 
