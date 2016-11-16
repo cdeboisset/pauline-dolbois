@@ -10,9 +10,9 @@
     <title> Pauline Dolbois</title>
     <meta name=“#”>
 
-    <meta property=“og:title” content=“Changer Malakoff - Pierre Demarquet”>
-    <meta property=“og:image” content=“tract.jpg”>
-    <meta property=“og:description” content=“Pauline Dolbois, hypnothérapeute depuis 10 ans vous accueille dans son cabinet Paris 16ème et Bonnières sur Seine”>
+    <meta property=“og:title” content=“Pauline Dolbois”>
+    <meta property=“og:image” content=“###”>
+    <meta property=“og:description” Content=“Pauline Dolbois, hypnothérapeute depuis 10 ans vous accueille dans son cabinet Paris 16ème et Bonnières sur Seine”>
 
     <meta charset="utf8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -33,7 +33,6 @@
 
 <div class="container">
 
-
 <nav class="navbar navbar-default navbar-transparent navbar-nav navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -52,8 +51,7 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">       
     
-        <li id="titre"><a href="index.html">Maitre praticien en hypnothérapie</a></li>
-
+       <li id="titre"><a href="index.html">Maitre praticien en hypnothérapie</a></li>
         
       </ul>
    
@@ -68,51 +66,95 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+
 <br/>
                         <br/><br/>
                         <br/>
 
 <h1>Prendre un RDV 
 </h1><br/>
-                        <br/>
-<p > <strong>Pauline Dolbois vous accueille du lundi au vendredi dans son cabinet Paris XVIème - Boulogne Billancourt</strong></h5>
-                        <br/>
-                        <br/>
-                        06 61 70 40 24 <br>
-                        <a href="mailto:contact@paulinedolbois.com" >contact@paulinedolbois.com </a><br>
-                        43 av Ferdinand Buisson 75016 Paris / Boulogne Billancourt<br/><br/>
-                        <strong>Métro</strong> : Porte de St Cloud - Ligne 9 <br/>
-                         <strong>Bus </strong> : Lignes 22, 62, 72, PC1 (97), 175, 189 et 289 
-                        <br/>
-                        <br/>
-                        <script type="text/javascript" src="http://www.supportduweb.com/google_map_gen.js?lati=48.840677&long=2.252273&zoom=13&width=675&height=400&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle=Cabinet%20de%20Pauline%20Dolbois"></script><br />
-                                                </p> 
+           
+
+<div class="row">
+
+  <div class="col-md-6">
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.8381580,2.2524340);
+
+  var myOptions = {
+      zoom: 14,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "Cabinet de Pauline Dolbois"
+  });
+</script>
+
+    
+  </div>
+
+
+  <div class="col-md-6">
+    <p id="block-contact">
+    <strong>Pauline Dolbois vous accueille du lundi au vendredi dans son cabinet Paris XVIème - Boulogne Billancourt</strong><br/><br/><br/>
+
+            <i class="fa fa-mobile" aria-hidden="true"></i> 06 61 70 40 24 <br/><br/>
+
+            <a href="mailto:contact@paulinedolbois.com"><i class="fa fa-envelope-o" aria-hidden="true" id="mailto"></i><font color= "black">contact@paulinedolbois.com </font></a><br/><br/>
+
+            <i class="fa fa-map-marker" aria-hidden="true"> </i>
+            43 av Ferdinand Buisson 75016 Paris / Boulogne Billancourt<br/><br/>
+
+            <strong>Métro</strong> : Porte de St Cloud - Ligne 9 <br/>
+
+            <strong>Bus </strong> : Lignes 22, 62, 72, PC1 (97), 175, 189 et 289 
+
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
 
 
 
    
+
 <footer>
-<br/><br/>
 
-<div class="row">
-                <div class="col-md-4">
-                  <div class="title-footer">En savoir plus sur l'hypnose<br/></div><br/>
-                    
-                </div>
-  <div class="col-md-2"> 
-          <div class="title-footer">Prendre un rendez-vous<br/></div><br/>
-                       
-                    
-  </div>
-  <div class="col-md-1">
-              
-  </div>
-  <div class="col-md-3">
+<div class="row"> <br/>
 
-            </div>
-   <div class="col-md-2">
-            <a href="legal.html"><div class="title-footer footer-content">Mentions légales<br/></div></a>
+  <div class="col-md-4"><a target="_blank" href="https://www.ifhe.net/">En savoir plus sur l'hypnose</a></div>
+  <div class="col-md-4"><a href="contact.html">Prendre un RDV</a></div>
+  <div class="col-md-4" id="mention-legale"><a href="legal.html">Mentions légales</a></div>
+
+</div>
+
+
+
  </footer> 
+
   
 </div>
 
